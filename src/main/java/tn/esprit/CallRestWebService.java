@@ -25,6 +25,7 @@ public class CallRestWebService {
 	//public static final String endpoint = "https://httpbin.org/get";
 	public static void main(String[] args) {
 		System.out.println("Calling REST Web Service");
+		System.out.println("Done By mayssem");
 		HttpClient client = new DefaultHttpClient();
 		HttpGet request = new HttpGet(endpoint);
 		String ip = "not found";
